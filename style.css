@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-image: url(/newBackground.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#gameBox{
+    /* border: 2px solid  black; */
+    margin: auto;
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+   /* border: 2px solid rgb(239, 69, 17); */
+   height: 63vh;
+   width: 50vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   column-gap: 0.5rem;
+   padding: 16px;
+
+}
+.btn{
+    width: 11vw;
+    height: 17vh; 
+    border-radius: 16px;
+    border: none;
+    background-color: aquamarine;
+    font-size: 2rem;
+}
+
+#winner{
+   font-weight: bold;
+   margin: 12px;
+   color: #ffffff;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.msgBox{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+
+   text-align: center;
+   padding: 20px;
+}
+
+.button{
+    margin: 10px;
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    color: #fff; /* Text color */
+    background-color: #3498db; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+}
+.button:hover {
+    background-color: #2980b9; /* Hover background color */
+    border-color: #2980b9; /* Hover border color */
+    color: #fff; /* Hover text color */
+  }
+
+  .HIDE{
+    display: none;   
+}
+
+#h1{
+    background-color: #3498db;
+    margin: auto;
+    margin-top: 44px;
+    width: 25vw;
+    color: #fff;
+    border-radius: 5px;
+}
